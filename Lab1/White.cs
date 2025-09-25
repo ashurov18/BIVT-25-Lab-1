@@ -7,8 +7,11 @@
             bool answer = false;
 
             // code here
-
-            // end
+            if (d > 0 )
+            {
+                answer = true;
+            }        
+             // end
 
             return answer;
         }
@@ -17,7 +20,10 @@
             bool answer = false;
 
             // code here
-
+            if ((double)n / 2 == 0)
+            {
+                answer = true;
+            }
             // end
 
             return answer;
@@ -27,7 +33,14 @@
             int answer = 0;
 
             // code here
-
+            if (a<=b)
+            {
+                answer = a;
+            }
+            else
+            {
+                answer = b;
+            }     
             // end
 
             return answer;
@@ -37,7 +50,14 @@
             double answer = 0;
 
             // code here
-
+             if (Math.Abs(d) <= Math.Abs(f))
+            {
+                answer = d;
+            }
+            else
+            {
+                answer = f;
+            }
             // end
 
             return answer;
@@ -47,7 +67,16 @@
             double answer = 0;
 
             // code here
-
+        double y;
+        
+        if (Math.Abs(x) > 1)
+        {
+            y = 1;    
+        }
+        else if (Math.Abs(x) <= 1)
+        {
+            y = x;    
+        }
             // end
 
             return answer;
@@ -57,7 +86,15 @@
             bool answer = false;
 
             // code here
-
+            double a = Math.Abs(x*x + y*y - r*r);
+            if (a<=0.00001)
+            {
+                Console.WritLine("Точка лежит на окружности")
+            }
+            else
+            {
+                Console.WriteLine("Точка не лежит на окружности");
+            }    
             // end
 
             return answer;
@@ -68,20 +105,43 @@
             bool answer = false;
 
             // code here
-
+            int n;
+            int s=n*n;
+            bool answer = false;
+            if (s-n>2*n)
+            {
+                if (n%2==0)
+                {
+                    answer = true;
+                } 
+            else 
+            {
+                if (n % 2 == 0)
+                {
+                    answer = true;
+                }
+            }    
             // end
 
-            return answer;
+          return answer;
         }
         public bool Task8(double L, int T, int M)
         {
             bool answer = false;
 
             // code here
-
+            f (L <= 30 && (T + M) >= 5 && M % 2 == 0)
+            {
+                 Console.WriteLine("Стоит");
+            }
+            else
+            {
+                 Console.WriteLine("Не стоит");
+            }
             // end
 
             return answer;
         }
     }
+
 }
