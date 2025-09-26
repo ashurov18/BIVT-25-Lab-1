@@ -31,7 +31,6 @@
         public int Task3(int a, int b)
         {
             int answer = 0;
-
             // code here
             if (a<=b)
             {
@@ -65,7 +64,6 @@
         public double Task5(double x)
         {
             double answer = 0;
-
             // code here
         double y;
         
@@ -130,7 +128,7 @@
             bool answer = false;
 
             // code here
-            f (L <= 30 && (T + M) >= 5 && M % 2 == 0)
+            if (L <= 30 && (T + M) >= 5 && M % 2 == 0)
             {
                  Console.WriteLine("Стоит");
             }
@@ -145,3 +143,4 @@
     }
 
 }
+
