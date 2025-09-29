@@ -83,7 +83,7 @@
 
             // code here
             double a = Math.Abs(x*x + y*y - r*r);
-            if (a<=0.00001)
+            if (a<=0.0000001)
             {
                 answer = true;
             }
@@ -141,6 +141,7 @@
     }
 
 }
+
 
 
 
