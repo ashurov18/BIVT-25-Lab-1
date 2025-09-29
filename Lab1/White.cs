@@ -20,7 +20,7 @@
             bool answer = false;
 
             // code here
-            if ((decimal)n / 2 == 0)
+            if (n % == 0)
             {
                 answer = true;
             }
@@ -32,7 +32,7 @@
         {
             int answer = 0;
             // code here
-            if (a<=b)
+            if (a>=b)
             {
                 answer = a;
             }
@@ -65,8 +65,6 @@
         {
             double answer = 0;
             // code here
-        double y;
-        
         if (Math.Abs(x) > 1)
         {
             answer = 1;    
@@ -143,6 +141,7 @@
     }
 
 }
+
 
 
 
