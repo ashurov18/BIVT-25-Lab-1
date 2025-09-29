@@ -87,7 +87,7 @@
             double a = Math.Abs(x*x + y*y - r*r);
             if (a<=0.00001)
             {
-                Console.WriteLine("Точка лежит на окружности")
+                Console.WriteLine("Точка лежит на окружности");
             }
             else
             {
@@ -103,9 +103,8 @@
             bool answer = false;
 
             // code here
-            int n;
             int s=n*n;
-            bool answer = false;
+            answer = false;
             if (s-n>2*n)
             {
                 if (n%2==0)
@@ -118,7 +117,8 @@
                 {
                     answer = true;
                 }
-            }    
+            } 
+        }       
             // end
 
           return answer;
@@ -143,5 +143,6 @@
     }
 
 }
+
 
 
