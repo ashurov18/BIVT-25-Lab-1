@@ -20,7 +20,7 @@
             bool answer = false;
 
             // code here
-            if ((double)n / 2 == 0)
+            if ((decimal)n / 2 == 0)
             {
                 answer = true;
             }
@@ -69,11 +69,11 @@
         
         if (Math.Abs(x) > 1)
         {
-            y = 1;    
+            answer = 1;    
         }
         else if (Math.Abs(x) <= 1)
         {
-            y = x;    
+            answer = x;    
         }
             // end
 
@@ -87,11 +87,11 @@
             double a = Math.Abs(x*x + y*y - r*r);
             if (a<=0.00001)
             {
-                Console.WriteLine("Точка лежит на окружности");
+                answer = true;
             }
             else
             {
-                Console.WriteLine("Точка не лежит на окружности");
+               answer = false;
             }    
             // end
 
@@ -130,11 +130,11 @@
             // code here
             if (L <= 30 && (T + M) >= 5 && M % 2 == 0)
             {
-                 Console.WriteLine("Стоит");
+                 answer = true;
             }
             else
             {
-                 Console.WriteLine("Не стоит");
+                 answer = false; 
             }
             // end
 
@@ -143,6 +143,7 @@
     }
 
 }
+
 
 
 
